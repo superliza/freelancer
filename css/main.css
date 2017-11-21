@@ -1,3 +1,165 @@
 /*
  * Estilos de tu proyecto
  */
+ * {
+   margin: 0;
+ }
+
+ header {
+   width: 100%;
+   overflow: hidden;
+   margin-bottom: 20px;
+   background: #2c3e50
+ }
+
+ #text {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   color: white;
+ }
+
+ .center {
+   width: 90%;
+   max-width: 1000px;
+   margin: auto;
+   overflow: hidden;
+ }
+
+ header > div.center > div.title-page {
+   font-size: 30px;
+   line-height: 100px;
+   float: left;
+ }
+
+ header nav.menu {
+   float: right;
+   line-height: 100px;
+ }
+
+ header nav.menu > a.menu-item {
+   color: white;
+   display: inline-block;
+   text-decoration: none;
+   padding: 5px;
+   line-height: normal;
+   font-size: 15px;
+ }
+
+#section-one {
+  background: #18bc9c;
+  text-align: center;
+  color: white;
+  margin-top: -20px;
+  padding: 50px;
+  height: 500px;
+}
+
+#section-one > div > img.image-one {
+  position: relative;
+  top: 30px;
+}
+
+div.start {
+  position: relative;
+  top: 50px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+div.start > h1 {
+  font-size: 80px;
+}
+
+hr.line-star {
+  width: 230px;
+  /*max-width: 150px;*/
+  margin: 25px auto;
+  border: none;
+  border-top: 5px solid;
+}
+
+p.experience, p.content {
+  font-family: 'Lato', sans-serif;
+}
+
+div.start p.experience {
+  font-size: 25px;
+}
+
+#section-two {
+  /*text-align: center;*/
+  background: red;
+  color: white;
+  /*margin-top: -20px;*/
+  padding: 100px;
+  height: 600px;
+}
+
+#section-two,
+#section-three,
+#section-four > h1 {
+  font-size: 50px;
+  /*text-align: center;*/
+}
+
+article {
+  float: left;
+}
+
+#section-two img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  padding-left: 50px;
+}
+
+#section-three {
+  background-color: #18bc9c;
+  padding: 100px;
+  height: 320px;
+  color: white;
+ }
+
+ .box {
+   overflow: hidden;
+ }
+
+ .content {
+   font-size: 20px;
+   line-height: 20px;
+   padding: 0 20px;
+   text-align: left;
+ }
+
+ .float-left {
+   float: left;
+   width: 50%;
+ }
+
+ .float-right {
+   float: right;
+    width: 50%;
+ }
+
+ .button {
+   color: white;
+   text-decoration: none;
+   display: inline-block;
+   margin-top: 100px;
+   margin-left: 450px;
+   padding: 10px;
+   padding-left: 50px;
+   border: 2px solid;
+   border-radius: 5px;
+   font-size: 20px;
+ }
+
+#section-four {
+  background-color: pink;
+  padding: 100px;
+  height: 320px;
+  color: white;
+}
